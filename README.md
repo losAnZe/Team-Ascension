@@ -115,3 +115,6 @@ Make sure `rich` and `pyfiglet` are installed.
 
 **Team Ascension**  
 
+##Complete Dataset which Model is trained Links
+https://www.kaggle.com/datasets/muhammedjunayed/wm811k-silicon-wafer-map-dataset-image
+https://www.kaggle.com/datasets/husseinsalahyounis/wm-400k-wafer-map-single-and-mixed
