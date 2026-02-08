@@ -37,6 +37,8 @@ python -m venv .venv
 # Install packages
 pip install -r requirements.txt
 ```
+### Video Guide 
+https://www.youtube.com/watch?v=983PmQfzxQM
 
 ### Step 2: Run SemiDiff
 
@@ -119,6 +121,7 @@ Make sure `rich` and `pyfiglet` are installed.
 
 https://www.kaggle.com/datasets/muhammedjunayed/wm811k-silicon-wafer-map-dataset-image
 https://www.kaggle.com/datasets/husseinsalahyounis/wm-400k-wafer-map-single-and-mixed
+
 
 
 
