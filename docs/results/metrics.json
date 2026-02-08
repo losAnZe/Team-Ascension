@@ -1,0 +1,151 @@
+{
+  "overall": {
+    "accuracy": 0.95625,
+    "precision": 0.9580150241914946,
+    "recall": 0.95625,
+    "f1_score": 0.9554780573715105,
+    "total_samples": 160
+  },
+  "per_class": {
+    "none": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 20
+    },
+    "center": {
+      "precision": 1.0,
+      "recall": 0.9,
+      "f1_score": 0.9473684210526315,
+      "support": 20
+    },
+    "donut": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 20
+    },
+    "edge_loc": {
+      "precision": 0.9411764705882353,
+      "recall": 0.8,
+      "f1_score": 0.8648648648648649,
+      "support": 20
+    },
+    "edge_ring": {
+      "precision": 0.9047619047619048,
+      "recall": 0.95,
+      "f1_score": 0.926829268292683,
+      "support": 20
+    },
+    "loc": {
+      "precision": 0.9090909090909091,
+      "recall": 1.0,
+      "f1_score": 0.9523809523809523,
+      "support": 20
+    },
+    "scratch": {
+      "precision": 0.9090909090909091,
+      "recall": 1.0,
+      "f1_score": 0.9523809523809523,
+      "support": 20
+    },
+    "random": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 20
+    }
+  },
+  "confusion_matrix": [
+    [
+      20,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      18,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      20,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      16,
+      2,
+      0,
+      2,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      1,
+      19,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      20,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      20,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      20
+    ]
+  ],
+  "class_names": [
+    "none",
+    "center",
+    "donut",
+    "edge_loc",
+    "edge_ring",
+    "loc",
+    "scratch",
+    "random"
+  ]
+}

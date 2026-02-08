@@ -1,0 +1,22 @@
+{
+  "model": "WaferDefectCNN",
+  "num_params": 247368,
+  "best_epoch": 21,
+  "best_val_acc": 0.9375,
+  "test_acc": 0.95625,
+  "test_loss": 0.14992410689592361,
+  "training_time_minutes": 3.291916374365489,
+  "device": "cpu",
+  "epochs_trained": 30,
+  "classes": [
+    "none",
+    "center",
+    "donut",
+    "edge_loc",
+    "edge_ring",
+    "loc",
+    "scratch",
+    "random"
+  ],
+  "timestamp": "2026-02-06T12:54:28.908115"
+}

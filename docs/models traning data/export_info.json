@@ -1,0 +1,34 @@
+{
+  "pytorch_checkpoint": "models\\checkpoints\\best_model.pth",
+  "onnx_model": "models\\model.onnx",
+  "onnx_size_mb": 0.9451131820678711,
+  "num_parameters": 247368,
+  "input_shape": [
+    1,
+    1,
+    64,
+    64
+  ],
+  "output_shape": [
+    1,
+    8
+  ],
+  "num_classes": 8,
+  "class_names": [
+    "none",
+    "center",
+    "donut",
+    "edge_loc",
+    "edge_ring",
+    "loc",
+    "scratch",
+    "random"
+  ],
+  "opset_version": 11,
+  "target_platform": "NXP i.MX RT series",
+  "notes": [
+    "Model is ready for NXP eIQ toolkit",
+    "Use onnx2tflite for TensorFlow Lite conversion",
+    "INT8 quantization recommended for deployment"
+  ]
+}
